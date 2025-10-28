@@ -1,10 +1,10 @@
 # src/main.py
 import argparse
-from algorithms import bfs, dfs, iddfs, greedy_best_first, astar
-from graph_loader import load_set1_graph
-from heuristics import euclidean_h
-from visualize import draw_path
-from benchmark import compare_algorithms, plot_bars
+from src.algorithms import bfs, dfs, iddfs, greedy_best_first, astar
+from src.graph_loader import load_set1_graph
+from src.heuristics import euclidean_h
+from src.visualize import draw_path
+from src.benchmark import compare_algorithms, plot_bars
 
 def parse_args():
     ap = argparse.ArgumentParser(description="CS 461 Program 1 — AI Search: Route Finding & Benchmarking")
